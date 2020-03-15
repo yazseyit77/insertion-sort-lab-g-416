@@ -8,7 +8,7 @@ function findMinAndRemove(array){
       minIndex = i;
     }
   }
-  array.splice(minArr, 1)
+  array.splice(minIndex, 1)
   return minArr;
 }
 
