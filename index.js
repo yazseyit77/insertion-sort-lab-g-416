@@ -7,8 +7,9 @@ function findMinAndRemove(array){
       minArr = array[i];
       minIndex = i;
     }
-    return minArr;
   }
+  array.splice(minArr, 1)
+  return minArr;
 }
 
 function insertionSort(array){
